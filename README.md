@@ -1,5 +1,8 @@
 # Warning header for Spring Web MVC
 
+[![Build Status](https://travis-ci.org/kakawait/spring-response-warning.svg)](https://travis-ci.org/kakawait/spring-response-warning)
+[![Coverage Status](https://coveralls.io/repos/github/kakawait/spring-response-warning/badge.svg?branch=master)](https://coveralls.io/github/kakawait/spring-response-warning?branch=master)
+
 *Spring Warning Response* is a library that makes it easy to return
 `Warning` header describes on [RFC7234](https://tools.ietf.org/html/rfc7234#section-5.5) responses from a Spring
 application.
