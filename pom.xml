@@ -85,13 +85,13 @@
 
     <distributionManagement>
         <repository>
-            <id>sonatype-nexus-staging</id>
+            <id>oss.sonatype.org</id>
             <name>Sonatype OSS Staging</name>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
             <layout>default</layout>
         </repository>
         <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
+            <id>oss.sonatype.org</id>
             <name>Sonatype OSS Snapshots</name>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
             <layout>default</layout>
@@ -208,6 +208,7 @@
                         <version>1.6.7</version>
                         <extensions>true</extensions>
                         <configuration>
+                            <serverId>oss.sonatype.org</serverId>
                             <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                             <autoReleaseAfterClose>true</autoReleaseAfterClose>
                         </configuration>
