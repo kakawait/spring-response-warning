@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.kakawait.spring.response.warning.ResponseWarningAutoConfiguration
