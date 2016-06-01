@@ -43,7 +43,9 @@ Deprecating API sample:
 @RestController
 class ProductsController {
 
-    @ResponseWarning(warnCode = WarnCode.MISCELLANEOUS_PERSISTENT_WARNING, text = "Deprecated API: use /{productId} instead.")
+    @ResponseWarning(
+            warnCode = WarnCode.MISCELLANEOUS_PERSISTENT_WARNING, 
+            text = "Deprecated API: use /{productId} instead.")
     @RequestMapping(method = GET, value = "/get", produces = APPLICATION_JSON_VALUE)
     @Deprecated
     public Product getProduct_v0(@RequestParam(value = "id") String productId) {
