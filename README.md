@@ -1,10 +1,11 @@
 # Warning header for Spring Web MVC
 
 [![Build Status](https://img.shields.io/travis/kakawait/spring-response-warning/master.svg?style=flat)](https://travis-ci.org/kakawait/spring-response-warning)
-[![Coverage Status](https://img.shields.io/coveralls/kakawait/spring-response-warning/master.svg?style=flat)](https://coveralls.io/github/kakawait/spring-response-warning?branch=master)
-[![license](https://img.shields.io/github/license/kakawait/spring-response-warning.svg?style=flat)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/kakawait/spring-response-warning/master.svg?style=flat)](https://github.com/kakawait/spring-response-warning/issues)
-
+[![Coverage Status](https://img.shields.io/coveralls/kakawait/spring-response-warning/master.svg?style=flat)](https://coveralls.io/github/kakawait/spring-response-warning?branch=master)
+[![License](https://img.shields.io/github/license/kakawait/spring-response-warning.svg?style=flat)](LICENSE)
+[![Maven Central](https://img.shields.io/maven-central/v/com.kakawait/spring-response-warning.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/com.kakawait/spring-response-warning)
+[![GitHub release](https://img.shields.io/github/release/kakawait/spring-response-warning.svg?style=flat)](https://github.com/kakawait/spring-response-warning/releases/)
 
 *Spring Warning Response* is a library that makes it easy to return
 `Warning` header describes on [RFC7234](https://tools.ietf.org/html/rfc7234#section-5.5) responses from a Spring

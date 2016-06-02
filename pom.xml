@@ -145,9 +145,6 @@
                             <execution>
                                 <id>coveralls</id>
                                 <phase>verify</phase>
-                                <goals>
-                                    <goal>jacoco</goal>
-                                </goals>
                                 <inherited>false</inherited>
                             </execution>
                         </executions>
