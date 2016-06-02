@@ -27,9 +27,13 @@ Add the following dependency to your project:
 
 ## Configuration
 
+### Spring-boot
+
 Nothing for *Spring-boot* application, *autoconfiguration* will do the jobs for you.
 
-For other simply register `ResponseWarningHandlerInterceptor`
+### Without Spring-boot
+
+Simply register `ResponseWarningHandlerInterceptor`
 
 ```java
 @Configuration
