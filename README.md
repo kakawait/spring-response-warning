@@ -27,9 +27,9 @@ Add the following dependency to your project:
 
 ## Configuration
 
-### Spring-boot
+### With Spring-boot (autoconfiguration)
 
-Nothing for *Spring-boot* application, *autoconfiguration* will do the jobs for you.
+Nothing for *Spring-boot* application, *autoconfiguration* will do the job for you.
 
 ### Without Spring-boot
 
