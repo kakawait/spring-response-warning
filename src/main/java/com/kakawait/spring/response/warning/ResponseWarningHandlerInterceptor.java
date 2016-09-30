@@ -35,9 +35,8 @@ import static org.springframework.http.HttpHeaders.WARNING;
  * @author Thibaud Leprêtre
  */
 public class ResponseWarningHandlerInterceptor extends HandlerInterceptorAdapter {
-    private static final String FORMAT = "%d %s \"%s\"";
 
-    private final DateTimeFormatter dateTimeFormatter;
+   private final DateTimeFormatter dateTimeFormatter;
 
     public ResponseWarningHandlerInterceptor() {
         this(HttpDateFormatter.RFC_1123);
