@@ -23,7 +23,7 @@ package com.kakawait.spring.response.warning;
  */
 final class WarningHeader {
 
-    public static final String UNKNOWN_AGENT = "-";
+    static final String UNKNOWN_AGENT = "-";
 
     private final WarnCode code;
 
